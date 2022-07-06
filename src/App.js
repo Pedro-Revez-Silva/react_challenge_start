@@ -28,9 +28,9 @@ function App() {
     setContacts([
       ...contacts,
       {
-        name,
-        phone,
-        email,
+        name: name,
+        phone: phone,
+        email: email
       },
     ]);
   }
@@ -39,10 +39,10 @@ function App() {
     setAppointments([
       ...appointments,
       {
-        title,
-        contact,
-        date,
-        time,
+        title: title,
+        contact: contact,
+        date: date,
+        time: time
       },
     ]);
   }
